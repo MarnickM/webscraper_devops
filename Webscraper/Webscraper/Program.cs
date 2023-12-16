@@ -420,8 +420,11 @@ namespace Webscraper
                         }
                         else // when I enter something that is not a 1 or 2, this error message is shown and the program asks me to choose again
                         {
+                            // make it clear that it is an error message
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("Sorry this is an invalid option, please choose between 1 and 2:");
                             gameOption = Console.ReadLine();
+                            Console.ResetColor();
                         }
                     }
                 }
