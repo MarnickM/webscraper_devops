@@ -147,7 +147,7 @@ namespace Webscraper
             }
             // show a message in the console with the color yellow that indicates that the json was written to a file by giving the path
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("A CSV file has been made at this location: C:\\Users\\Marni\\Desktop\\Thomas More\\Jaar 2\\Devops&Security\\project\\CSV_file.json");
+            Console.WriteLine("A CSV file has been made at this location: C:\\Users\\Marni\\Desktop\\Thomas More\\Jaar 2\\Devops&Security\\project\\CSV_file.csv");
             // set color to default
             Console.ResetColor();
         }
